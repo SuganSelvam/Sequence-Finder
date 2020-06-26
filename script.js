@@ -103,7 +103,7 @@ vButtonTab.appendChild(vReset)
 let blinkVal=[];  //array of random values from 1-4 to select a random color for AI turn
 let userVal=[];   //array to hold the value for user input
 let stars;         //current value of in which quadrant the star to blink
-let turns          //to hold the value of how many rounds cleared
+let turns =1;      //to hold the value of how many rounds cleared
 let curAns;        //tohold value of current ans to check with AI's answer
 let AIturn;         //bool varibale to to see if computers turn or not
 let intervalId;     //variale for interval
